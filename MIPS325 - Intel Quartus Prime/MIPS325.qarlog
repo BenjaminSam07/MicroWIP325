@@ -1,0 +1,40 @@
+Quartus Prime Archive log --	E:/AeolusElec/MIPS325 - Intel/MIPS325.qarlog
+
+Archive:	E:/AeolusElec/MIPS325 - Intel/MIPS325.qar
+Date:		Thu Jan 27 10:59:04 2022
+Quartus Prime		21.1.0 Build 842 10/21/2021 SJ Lite Edition
+
+	=========== Files Selected: ===========
+E:/AeolusElec/MIPS325 - Intel/ALU.v
+E:/AeolusElec/MIPS325 - Intel/ALUControl_Block.v
+E:/AeolusElec/MIPS325 - Intel/Add.v
+E:/AeolusElec/MIPS325 - Intel/Control.v
+E:/AeolusElec/MIPS325 - Intel/FowardingUnit.v
+E:/AeolusElec/MIPS325 - Intel/InstructionMem.v
+E:/AeolusElec/MIPS325 - Intel/JRControl_Block.v
+E:/AeolusElec/MIPS325 - Intel/MIPS325.out.sdc
+E:/AeolusElec/MIPS325 - Intel/MIPSpipeline.v
+E:/AeolusElec/MIPS325 - Intel/RegFile.v
+E:/AeolusElec/MIPS325 - Intel/StallControl.v
+E:/AeolusElec/MIPS325 - Intel/WB_forward.v
+E:/AeolusElec/MIPS325 - Intel/dataMem.v
+E:/AeolusElec/MIPS325 - Intel/flush_block.v
+E:/AeolusElec/MIPS325 - Intel/mux2x32to32.v
+E:/AeolusElec/MIPS325 - Intel/mux2x5to5.v
+E:/AeolusElec/MIPS325 - Intel/mux3x32to32.v
+E:/AeolusElec/MIPS325 - Intel/sign_extend.v
+E:/AeolusElec/MIPS325 - Intel/zero_extend.v
+E:/INTEL/quartus/bin64/MIPS325.out.sdc
+E:/INTEL/quartus/bin64/MIPS325.qpf
+E:/INTEL/quartus/bin64/MIPS325.qsf
+E:/INTEL/quartus/bin64/assignment_defaults.qdf
+E:/INTEL/quartus/bin64/modelsim_q.tcl
+E:/INTEL/quartus/bin64/prj_asd_import.tcl
+E:/INTEL/quartus/bin64/remote_cmp.tcl
+E:/INTEL/quartus/bin64/tcl_client.tcl
+E:/INTEL/quartus/bin64/tcl_server.tcl
+E:/aeoluselec/mips325 - intel/instr.txt
+	======= Total: 29 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

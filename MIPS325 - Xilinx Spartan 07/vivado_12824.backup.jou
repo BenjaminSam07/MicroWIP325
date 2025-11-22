@@ -1,0 +1,210 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Jan 17 23:06:03 2022
+# Process ID: 12824
+# Current directory: E:/Projects/VLSI/32BitMIPSArch/MIPS325
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16996 E:\Projects\VLSI\32BitMIPSArch\MIPS325\MIPS325.xpr
+# Log file: E:/Projects/VLSI/32BitMIPSArch/MIPS325/vivado.log
+# Journal file: E:/Projects/VLSI/32BitMIPSArch/MIPS325\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.xpr
+update_compile_order -fileset sources_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+reset_run impl_1 -prev_step 
+open_run synth_1 -name synth_1
+delete_pblock [get_pblocks  pblock_MIPSdataMem1]
+delete_pblock [get_pblocks  pblock_MIPSEXMEM_ALUResult]
+delete_pblock [get_pblocks  pblock_MIPSRegister_File]
+delete_pblock [get_pblocks  pblock_EXMEM_WriteDataOfMem_1]
+save_constraints
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+close_design
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+open_run impl_1
+startgroup
+create_pblock pblock_dataMem1_1
+create_pblock pblock_EXMEM_ALUResult_1
+create_pblock pblock_EXMEM_WriteDataOfMem_1
+create_pblock pblock_Register_File_1
+create_pblock pblock_IDEX_rs_rt_rd_1
+add_cells_to_pblock pblock_dataMem1_1 [get_cells [list dataMem1]] -clear_locs
+add_cells_to_pblock pblock_EXMEM_ALUResult_1 [get_cells [list EXMEM_ALUResult]] -clear_locs
+add_cells_to_pblock pblock_EXMEM_WriteDataOfMem_1 [get_cells [list EXMEM_WriteDataOfMem]] -clear_locs
+add_cells_to_pblock pblock_Register_File_1 [get_cells [list Register_File]] -clear_locs
+add_cells_to_pblock pblock_IDEX_rs_rt_rd_1 [get_cells [list IDEX_rs_rt_rd]] -clear_locs
+endgroup
+save_constraints
+reset_run impl_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+close_design
+open_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+launch_simulation -mode post-implementation -type timing
+launch_simulation
+close_design
+export_ip_user_files -of_objects  [get_files E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sim_1/new/MIPSStimulus.v] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sim_1/new/MIPSStimulus.v
+file delete -force E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sim_1/new/MIPSStimulus.v
+set_property source_mgmt_mode DisplayOnly [current_project]
+launch_simulation -mode post-implementation -type timing
+close_design
+launch_simulation -mode post-synthesis -type timing
+close_design
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top MIPSpipeline [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode DisplayOnly [current_project]
+launch_simulation -mode post-synthesis -type timing
+source MIPSpipeline.tcl
+restart
+close_sim
+close_design
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sim_1/new/MIPSStimulus.v w ]
+add_files -fileset sim_1 E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sim_1/new/MIPSStimulus.v
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top MIPSStimulus [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode DisplayOnly [current_project]
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+export_ip_user_files -of_objects  [get_files E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sim_1/new/MIPSStimulus.v] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sim_1/new/MIPSStimulus.v
+file delete -force E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sim_1/new/MIPSStimulus.v
+launch_simulation -mode post-implementation -type functional
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top MIPSpipeline [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode DisplayOnly [current_project]
+launch_simulation -mode post-implementation -type timing
+close_design
+launch_simulation -mode post-implementation -type timing
+source MIPSpipeline.tcl
+restart
+run 100 ns
+restart
+run 100 ns
+restart
+add_force {/MIPSpipeline/clk} -radix hex {1 0.2ns} {0 8700ps} -repeat_every 17000ps
+run 100 ns
+add_force {/MIPSpipeline/clk} -radix hex {0 0ns} {1 7500ps} -repeat_every 15000ps
+restart
+run 100 ns
+restart
+add_force {/MIPSpipeline/clk} -radix bin {0 0ns} {1 7500ps} -repeat_every 15000ps
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+restart
+add_force {/MIPSpipeline/clk} -radix bin {0 0ns} {1 7500ps} -repeat_every 15000ps
+run 10 ns
+restart
+add_force {/MIPSpipeline/clk} -radix bin {0 0ns} {1 7500ps} -repeat_every 15000ps
+run 15 ns
+run 15 ns
+add_force {/MIPSpipeline/reset} -radix bin {1 0ns}
+run 15 ns
+add_force {/MIPSpipeline/reset} -radix bin {0 0ns}
+run 15 ns
+run 15 ns
+run 15 ns
+run 15 ns
+run 15 ns
+run 15 ns
+run 15 ns
+run 15 ns
+run 15 ns
+run 15 ns
+run 15 ns
+run 15 ns
+run 15 ns
+run 15 ns
+run 15 ns
+run 15 ns
+run 15 ns
+run 15 ns
+run 15 ns
+run 15 ns
+run 15 ns
+run 15 ns
+run 15 ns
+run 15 ns
+save_wave_config {E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPSpipeline_time_impl.wcfg}
+add_files -fileset sim_1 -norecurse E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPSpipeline_time_impl.wcfg
+set_property xsim.view E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPSpipeline_time_impl.wcfg [get_filesets sim_1]
+run 15 ns
+run 15 ns
+run 15 ns
+run 15 ns
+run 15 ns
+run 15 ns
+run 15 ns
+run 15 ns
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+restart
+add_force {/MIPSpipeline/clk} -radix hex {0 0ns} {1 9500ps} -repeat_every 19000ps
+add_force {/MIPSpipeline/reset} -radix hex {1 0ns}
+run 19 ns
+add_force {/MIPSpipeline/reset} -radix hex {0 0ns}
+run 19 ns
+run 19 ns
+run 19 ns
+run 19 ns
+run 19 ns
+run 19 ns
+run 19 ns
+run 19 ns
+run 19 ns
+run 19 ns
+run 19 ns
+run 19 ns
+run 19 ns
+run 19 ns
+run 19 ns
+run 19 ns
+run 19 ns
+run 19 ns
+run 19 ns
+run 19 ns
+run 19 ns
+run 19 ns
+run 19 ns
+run 19 ns
+run 19 ns
+run 19 ns
+run 19 ns
+run 19 ns
+run 19 ns
+run 500 ns
+restart
+add_force {/MIPSpipeline/clk} -radix hex {0 0ns} {1 9500ps} -repeat_every 19000ps
+add_force {/MIPSpipeline/reset} -radix bin {0 0ns}
+run 1000 ns
+run 1000 ns
+save_wave_config {E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPSpipeline_time_impl.wcfg}
+save_wave_config {E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPSpipeline_time_impl.wcfg}
+save_wave_config {E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPSpipeline_time_impl.wcfg}
+undo
+close_sim
+close_design
+close_project

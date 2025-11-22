@@ -1,0 +1,141 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Feb 15 10:10:23 2022
+# Process ID: 14536
+# Current directory: E:/Projects/VLSI/32BitMIPSArch/MIPS325
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12024 E:\Projects\VLSI\32BitMIPSArch\MIPS325\MIPS325.xpr
+# Log file: E:/Projects/VLSI/32BitMIPSArch/MIPS325/vivado.log
+# Journal file: E:/Projects/VLSI/32BitMIPSArch/MIPS325\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.xpr
+WARNING: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/projects/vlsi/32bitmipsarch/mips325'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/SOFTWAREs/XilinxVivado/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:38 ; elapsed = 00:00:42 . Memory (MB): peak = 921.812 ; gain = 0.000
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7s100fgga676-2
+Top: MIPSpipeline
+INFO: [Device 21-403] Loading part xc7s100fgga676-2
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:12 . Memory (MB): peak = 1245.199 ; gain = 254.016
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'MIPSpipeline' [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/MIPSpipeline.v:23]
+INFO: [Synth 8-6157] synthesizing module 'register' [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/RegFile.v:118]
+INFO: [Synth 8-6157] synthesizing module 'RegBit' [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/RegFile.v:104]
+INFO: [Synth 8-6157] synthesizing module 'D_FF' [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/RegFile.v:91]
+INFO: [Synth 8-6155] done synthesizing module 'D_FF' (1#1) [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/RegFile.v:91]
+INFO: [Synth 8-6155] done synthesizing module 'RegBit' (2#1) [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/RegFile.v:104]
+INFO: [Synth 8-6155] done synthesizing module 'register' (3#1) [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/RegFile.v:118]
+INFO: [Synth 8-6157] synthesizing module 'Add' [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/Add.v:23]
+INFO: [Synth 8-6157] synthesizing module 'adder1bit' [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/Add.v:65]
+INFO: [Synth 8-6155] done synthesizing module 'adder1bit' (4#1) [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/Add.v:65]
+INFO: [Synth 8-6155] done synthesizing module 'Add' (5#1) [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/Add.v:23]
+INFO: [Synth 8-6157] synthesizing module 'InstructionMem' [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/InstructionMem.v:23]
+INFO: [Synth 8-3876] $readmem data file 'instr.txt' is read successfully [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/InstructionMem.v:68]
+INFO: [Synth 8-6155] done synthesizing module 'InstructionMem' (6#1) [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/InstructionMem.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Control' [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/Control.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'Control' (7#1) [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/Control.v:22]
+INFO: [Synth 8-6157] synthesizing module 'RegFile' [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/RegFile.v:23]
+INFO: [Synth 8-6157] synthesizing module 'decoder' [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/RegFile.v:158]
+INFO: [Synth 8-6157] synthesizing module 'dec5to32' [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/RegFile.v:205]
+INFO: [Synth 8-6157] synthesizing module 'andmore' [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/RegFile.v:198]
+INFO: [Synth 8-6155] done synthesizing module 'andmore' (8#1) [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/RegFile.v:198]
+INFO: [Synth 8-6155] done synthesizing module 'dec5to32' (9#1) [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/RegFile.v:205]
+INFO: [Synth 8-6155] done synthesizing module 'decoder' (10#1) [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/RegFile.v:158]
+INFO: [Synth 8-6157] synthesizing module 'mux32x32to32' [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/RegFile.v:300]
+INFO: [Synth 8-6157] synthesizing module 'mux32to1' [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/RegFile.v:249]
+INFO: [Synth 8-6155] done synthesizing module 'mux32to1' (11#1) [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/RegFile.v:249]
+INFO: [Synth 8-6155] done synthesizing module 'mux32x32to32' (12#1) [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/RegFile.v:300]
+INFO: [Synth 8-6155] done synthesizing module 'RegFile' (13#1) [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/RegFile.v:23]
+INFO: [Synth 8-6157] synthesizing module 'WB_forward' [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/WB_forward.v:27]
+INFO: [Synth 8-6157] synthesizing module 'CompareAddress' [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/WB_forward.v:62]
+INFO: [Synth 8-6155] done synthesizing module 'CompareAddress' (14#1) [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/WB_forward.v:62]
+INFO: [Synth 8-6157] synthesizing module 'mux2x32to32' [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/mux2x32to32.v:23]
+INFO: [Synth 8-6157] synthesizing module 'mux2_1' [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/mux2x5to5.v:34]
+INFO: [Synth 8-6155] done synthesizing module 'mux2_1' (15#1) [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/mux2x5to5.v:34]
+INFO: [Synth 8-6155] done synthesizing module 'mux2x32to32' (16#1) [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/mux2x32to32.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'WB_forward' (17#1) [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/WB_forward.v:27]
+INFO: [Synth 8-6157] synthesizing module 'sign_extend' [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/sign_extend.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'sign_extend' (18#1) [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/sign_extend.v:22]
+INFO: [Synth 8-6157] synthesizing module 'zero_extend' [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/zero_extend.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'zero_extend' (19#1) [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/zero_extend.v:22]
+INFO: [Synth 8-6157] synthesizing module 'JRControl_Block' [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/JRControl_Block.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'JRControl_Block' (20#1) [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/JRControl_Block.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Discard_Instr' [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/flush_block.v:47]
+INFO: [Synth 8-6155] done synthesizing module 'Discard_Instr' (21#1) [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/flush_block.v:47]
+INFO: [Synth 8-6157] synthesizing module 'flush_block' [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/flush_block.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'flush_block' (22#1) [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/flush_block.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ForwardingUnit' [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/FowardingUnit.v:27]
+INFO: [Synth 8-6155] done synthesizing module 'ForwardingUnit' (23#1) [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/FowardingUnit.v:27]
+INFO: [Synth 8-6157] synthesizing module 'mux3x32to32' [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/mux3x32to32.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'mux3x32to32' (24#1) [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/mux3x32to32.v:24]
+INFO: [Synth 8-6157] synthesizing module 'ALUControl_Block' [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/ALUControl_Block.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'ALUControl_Block' (25#1) [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/ALUControl_Block.v:21]
+INFO: [Synth 8-6157] synthesizing module 'ALU' [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/ALU.v:23]
+INFO: [Synth 8-6157] synthesizing module 'alu1bit' [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/ALU.v:83]
+INFO: [Synth 8-6157] synthesizing module 'addsub' [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/ALU.v:93]
+INFO: [Synth 8-6157] synthesizing module 'mux21' [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/ALU.v:115]
+INFO: [Synth 8-6155] done synthesizing module 'mux21' (26#1) [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/ALU.v:115]
+INFO: [Synth 8-6157] synthesizing module 'adder' [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/ALU.v:103]
+INFO: [Synth 8-6155] done synthesizing module 'adder' (27#1) [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/ALU.v:103]
+INFO: [Synth 8-6155] done synthesizing module 'addsub' (28#1) [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/ALU.v:93]
+INFO: [Synth 8-6155] done synthesizing module 'alu1bit' (29#1) [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/ALU.v:83]
+INFO: [Synth 8-6155] done synthesizing module 'ALU' (30#1) [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/ALU.v:23]
+INFO: [Synth 8-6157] synthesizing module 'mux2x5to5' [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/mux2x5to5.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'mux2x5to5' (31#1) [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/mux2x5to5.v:23]
+INFO: [Synth 8-6157] synthesizing module 'dataMem' [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/dataMem.v:23]
+Reason is one or more of the following :
+	1: RAM has multiple writes via different ports in same process. If RAM inferencing intended, write to one port per process. 
+	2: Unable to determine number of words or word size in RAM. 
+	3: No valid read/write found for RAM. 
+RAM "datamem_reg" dissolved into registers
+INFO: [Synth 8-6155] done synthesizing module 'dataMem' (32#1) [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/dataMem.v:23]
+INFO: [Synth 8-6157] synthesizing module 'StallControl' [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/StallControl.v:26]
+INFO: [Synth 8-6155] done synthesizing module 'StallControl' (33#1) [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/StallControl.v:26]
+INFO: [Synth 8-6157] synthesizing module 'shift_left_2' [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/sign_extend.v:29]
+INFO: [Synth 8-6155] done synthesizing module 'shift_left_2' (34#1) [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/sign_extend.v:29]
+INFO: [Synth 8-6155] done synthesizing module 'MIPSpipeline' (35#1) [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/MIPSpipeline.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:21 ; elapsed = 00:00:27 . Memory (MB): peak = 1535.680 ; gain = 544.496
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:27 ; elapsed = 00:00:33 . Memory (MB): peak = 1551.359 ; gain = 560.176
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:27 ; elapsed = 00:00:33 . Memory (MB): peak = 1551.359 ; gain = 560.176
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1551.359 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/constrs_1/new/ConstraintFile.xdc]
+WARNING: [Vivado 12-5846] Redefining clock group exclusive_clk0_clk1 [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/constrs_1/new/ConstraintFile.xdc:21]
+Finished Parsing XDC File [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/constrs_1/new/ConstraintFile.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/constrs_1/new/ConstraintFile.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/MIPSpipeline_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/MIPSpipeline_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.053 . Memory (MB): peak = 1662.930 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:01:14 ; elapsed = 00:01:08 . Memory (MB): peak = 1796.250 ; gain = 805.066
+75 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:24 ; elapsed = 00:01:39 . Memory (MB): peak = 1855.254 ; gain = 933.441
+write_schematic E:/Projects/VLSI/32BitMIPSArch/MIPS325/RTLSchematic.sch
+E:/Projects/VLSI/32BitMIPSArch/MIPS325/RTLSchematic.sch
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Feb 15 16:23:02 2022...

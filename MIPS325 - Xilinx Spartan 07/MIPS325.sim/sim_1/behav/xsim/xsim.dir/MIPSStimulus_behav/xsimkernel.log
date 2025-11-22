@@ -1,0 +1,7 @@
+Running: xsim.dir/MIPSStimulus_behav/xsimk.exe -simmode gui -wdb MIPSStimulus_behav.wdb -simrunnum 0 -socket 65215
+Design successfully loaded
+Design Loading Memory Usage: 16712 KB (Peak: 16712 KB)
+Design Loading CPU Usage: 108 ms
+Simulation completed
+Simulation Memory Usage: 22616 KB (Peak: 22616 KB)
+Simulation CPU Usage: 781 ms

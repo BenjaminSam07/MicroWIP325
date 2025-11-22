@@ -1,0 +1,27 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../MIPS325.srcs/sources_1/new/ALU.v" \
+"../../../../MIPS325.srcs/sources_1/new/ALUControl_Block.v" \
+"../../../../MIPS325.srcs/sources_1/new/Add.v" \
+"../../../../MIPS325.srcs/sources_1/new/Control.v" \
+"../../../../MIPS325.srcs/sources_1/new/FowardingUnit.v" \
+"../../../../MIPS325.srcs/sources_1/new/InstructionMem.v" \
+"../../../../MIPS325.srcs/sources_1/new/JRControl_Block.v" \
+"../../../../MIPS325.srcs/sources_1/new/RegFile.v" \
+"../../../../MIPS325.srcs/sources_1/new/StallControl.v" \
+"../../../../MIPS325.srcs/sources_1/new/WB_forward.v" \
+"../../../../MIPS325.srcs/sources_1/new/dataMem.v" \
+"../../../../MIPS325.srcs/sources_1/new/flush_block.v" \
+"../../../../MIPS325.srcs/sources_1/new/mux2x32to32.v" \
+"../../../../MIPS325.srcs/sources_1/new/mux2x5to5.v" \
+"../../../../MIPS325.srcs/sources_1/new/mux3x32to32.v" \
+"../../../../MIPS325.srcs/sources_1/new/sign_extend.v" \
+"../../../../MIPS325.srcs/sources_1/new/zero_extend.v" \
+"../../../../MIPS325.srcs/sources_1/new/MIPSpipeline.v" \
+"../../../../MIPS325.srcs/sim_1/new/MIPSStimulus.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

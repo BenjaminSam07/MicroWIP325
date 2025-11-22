@@ -1,0 +1,120 @@
+Partition Statistics report for MIPS325
+Thu Jan 27 10:26:29 2022
+Quartus Prime Version 21.1.0 Build 842 10/21/2021 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Fitter Partition Statistics
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2021  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++-----------------------------------------------------------------------------------------------------------------------+
+; Fitter Partition Statistics                                                                                           ;
++-------------------------------------------------------------+------------------------+--------------------------------+
+; Statistic                                                   ; Top                    ; hard_block:auto_generated_inst ;
++-------------------------------------------------------------+------------------------+--------------------------------+
+; Logic utilization (ALMs needed / total ALMs on device)      ; 19734 / 56480 ( 35 % ) ; 0 / 56480 ( 0 % )              ;
+; ALMs needed [=A-B+C]                                        ; 19734                  ; 0                              ;
+;     [A] ALMs used in final placement [=a+b+c+d]             ; 19779 / 56480 ( 35 % ) ; 0 / 56480 ( 0 % )              ;
+;         [a] ALMs used for LUT logic and registers           ; 4390                   ; 0                              ;
+;         [b] ALMs used for LUT logic                         ; 15300                  ; 0                              ;
+;         [c] ALMs used for registers                         ; 89                     ; 0                              ;
+;         [d] ALMs used for memory (up to half of total ALMs) ; 0                      ; 0                              ;
+;     [B] Estimate of ALMs recoverable by dense packing       ; 753 / 56480 ( 1 % )    ; 0 / 56480 ( 0 % )              ;
+;     [C] Estimate of ALMs unavailable [=a+b+c+d]             ; 708 / 56480 ( 1 % )    ; 0 / 56480 ( 0 % )              ;
+;         [a] Due to location constrained logic               ; 0                      ; 0                              ;
+;         [b] Due to LAB-wide signal conflicts                ; 3                      ; 0                              ;
+;         [c] Due to LAB input limits                         ; 705                    ; 0                              ;
+;         [d] Due to virtual I/Os                             ; 0                      ; 0                              ;
+;                                                             ;                        ;                                ;
+; Difficulty packing design                                   ; Low                    ; Low                            ;
+;                                                             ;                        ;                                ;
+; Total LABs:  partially or completely used                   ; 2758 / 5648 ( 49 % )   ; 0 / 5648 ( 0 % )               ;
+;     -- Logic LABs                                           ; 2758                   ; 0                              ;
+;     -- Memory LABs (up to half of total LABs)               ; 0                      ; 0                              ;
+;                                                             ;                        ;                                ;
+; Combinational ALUT usage for logic                          ; 24847                  ; 0                              ;
+;     -- 7 input functions                                    ; 23                     ; 0                              ;
+;     -- 6 input functions                                    ; 18821                  ; 0                              ;
+;     -- 5 input functions                                    ; 533                    ; 0                              ;
+;     -- 4 input functions                                    ; 1148                   ; 0                              ;
+;     -- <=3 input functions                                  ; 4322                   ; 0                              ;
+; Combinational ALUT usage for route-throughs                 ; 67                     ; 0                              ;
+; Memory ALUT usage                                           ; 0                      ; 0                              ;
+;     -- 64-address deep                                      ; 0                      ; 0                              ;
+;     -- 32-address deep                                      ; 0                      ; 0                              ;
+;                                                             ;                        ;                                ;
+; Dedicated logic registers                                   ; 0                      ; 0                              ;
+;     -- By type:                                             ;                        ;                                ;
+;         -- Primary logic registers                          ; 8958 / 112960 ( 8 % )  ; 0 / 112960 ( 0 % )             ;
+;         -- Secondary logic registers                        ; 203 / 112960 ( < 1 % ) ; 0 / 112960 ( 0 % )             ;
+;     -- By function:                                         ;                        ;                                ;
+;         -- Design implementation registers                  ; 8960                   ; 0                              ;
+;         -- Routing optimization registers                   ; 201                    ; 0                              ;
+;                                                             ;                        ;                                ;
+;                                                             ;                        ;                                ;
+; Virtual pins                                                ; 0                      ; 0                              ;
+; I/O pins                                                    ; 10                     ; 0                              ;
+; I/O registers                                               ; 0                      ; 0                              ;
+; Total block memory bits                                     ; 0                      ; 0                              ;
+; Total block memory implementation bits                      ; 0                      ; 0                              ;
+; Clock enable block                                          ; 2 / 122 ( 1 % )        ; 0 / 122 ( 0 % )                ;
+;                                                             ;                        ;                                ;
+; Connections                                                 ;                        ;                                ;
+;     -- Input Connections                                    ; 0                      ; 0                              ;
+;     -- Registered Input Connections                         ; 0                      ; 0                              ;
+;     -- Output Connections                                   ; 0                      ; 0                              ;
+;     -- Registered Output Connections                        ; 0                      ; 0                              ;
+;                                                             ;                        ;                                ;
+; Internal Connections                                        ;                        ;                                ;
+;     -- Total Connections                                    ; 161278                 ; 0                              ;
+;     -- Registered Connections                               ; 68548                  ; 0                              ;
+;                                                             ;                        ;                                ;
+; External Connections                                        ;                        ;                                ;
+;     -- Top                                                  ; 0                      ; 0                              ;
+;     -- hard_block:auto_generated_inst                       ; 0                      ; 0                              ;
+;                                                             ;                        ;                                ;
+; Partition Interface                                         ;                        ;                                ;
+;     -- Input Ports                                          ; 2                      ; 0                              ;
+;     -- Output Ports                                         ; 8                      ; 0                              ;
+;     -- Bidir Ports                                          ; 0                      ; 0                              ;
+;                                                             ;                        ;                                ;
+; Registered Ports                                            ;                        ;                                ;
+;     -- Registered Input Ports                               ; 0                      ; 0                              ;
+;     -- Registered Output Ports                              ; 0                      ; 0                              ;
+;                                                             ;                        ;                                ;
+; Port Connectivity                                           ;                        ;                                ;
+;     -- Input Ports driven by GND                            ; 0                      ; 0                              ;
+;     -- Output Ports driven by GND                           ; 0                      ; 0                              ;
+;     -- Input Ports driven by VCC                            ; 0                      ; 0                              ;
+;     -- Output Ports driven by VCC                           ; 0                      ; 0                              ;
+;     -- Input Ports with no Source                           ; 0                      ; 0                              ;
+;     -- Output Ports with no Source                          ; 0                      ; 0                              ;
+;     -- Input Ports with no Fanout                           ; 0                      ; 0                              ;
+;     -- Output Ports with no Fanout                          ; 0                      ; 0                              ;
++-------------------------------------------------------------+------------------------+--------------------------------+
+
+

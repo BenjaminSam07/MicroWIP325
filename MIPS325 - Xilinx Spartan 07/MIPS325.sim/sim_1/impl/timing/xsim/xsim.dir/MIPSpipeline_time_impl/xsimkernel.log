@@ -1,0 +1,7 @@
+Running: xsim.dir/MIPSpipeline_time_impl/xsimk.exe -simmode gui -wdb MIPSpipeline_time_impl.wdb -simrunnum 0 -socket 60281
+Design successfully loaded
+Design Loading Memory Usage: 411360 KB (Peak: 411360 KB)
+Design Loading CPU Usage: 1624 ms
+Simulation completed
+Simulation Memory Usage: 530276 KB (Peak: 530276 KB)
+Simulation CPU Usage: 51077 ms

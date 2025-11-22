@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Jan 18 12:39:44 2022
+# Process ID: 12572
+# Current directory: E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.runs/impl_1
+# Command line: vivado.exe -log MIPSpipeline.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source MIPSpipeline.tcl -notrace
+# Log file: E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.runs/impl_1/MIPSpipeline.vdi
+# Journal file: E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source MIPSpipeline.tcl -notrace

@@ -1,0 +1,111 @@
+Unconstrained Paths report for MIPS325
+Thu Jan 27 10:17:07 2022
+Quartus Prime Version 21.1.0 Build 842 10/21/2021 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Unconstrained Paths Summary
+  3. Clock Status Summary
+  4. Unconstrained Input Ports
+  5. Unconstrained Output Ports
+  6. Unconstrained Input Ports
+  7. Unconstrained Output Ports
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2021  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++------------------------------------------------+
+; Unconstrained Paths Summary                    ;
++---------------------------------+-------+------+
+; Property                        ; Setup ; Hold ;
++---------------------------------+-------+------+
+; Illegal Clocks                  ; 0     ; 0    ;
+; Unconstrained Clocks            ; 0     ; 0    ;
+; Unconstrained Input Ports       ; 1     ; 1    ;
+; Unconstrained Input Port Paths  ; 800   ; 800  ;
+; Unconstrained Output Ports      ; 8     ; 8    ;
+; Unconstrained Output Port Paths ; 1263  ; 1263 ;
++---------------------------------+-------+------+
+
+
++-------------------------------------+
+; Clock Status Summary                ;
++--------+-------+------+-------------+
+; Target ; Clock ; Type ; Status      ;
++--------+-------+------+-------------+
+; clk    ; clk   ; Base ; Constrained ;
++--------+-------+------+-------------+
+
+
++---------------------------------------------------------------------------------------------------+
+; Unconstrained Input Ports                                                                         ;
++------------+--------------------------------------------------------------------------------------+
+; Input Port ; Comment                                                                              ;
++------------+--------------------------------------------------------------------------------------+
+; reset      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
++------------+--------------------------------------------------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------+
+; Unconstrained Output Ports                                                                           ;
++--------------+---------------------------------------------------------------------------------------+
+; Output Port  ; Comment                                                                               ;
++--------------+---------------------------------------------------------------------------------------+
+; CarryFlag    ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; JRControl    ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; JumpControl  ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; JumpFlush    ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; NegativeFlag ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; OverflowFlag ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; ZeroFlag     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; notZeroFlag  ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
++--------------+---------------------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------+
+; Unconstrained Input Ports                                                                         ;
++------------+--------------------------------------------------------------------------------------+
+; Input Port ; Comment                                                                              ;
++------------+--------------------------------------------------------------------------------------+
+; reset      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
++------------+--------------------------------------------------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------+
+; Unconstrained Output Ports                                                                           ;
++--------------+---------------------------------------------------------------------------------------+
+; Output Port  ; Comment                                                                               ;
++--------------+---------------------------------------------------------------------------------------+
+; CarryFlag    ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; JRControl    ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; JumpControl  ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; JumpFlush    ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; NegativeFlag ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; OverflowFlag ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; ZeroFlag     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; notZeroFlag  ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
++--------------+---------------------------------------------------------------------------------------+
+
+

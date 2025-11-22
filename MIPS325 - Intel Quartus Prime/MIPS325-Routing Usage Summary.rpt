@@ -1,0 +1,59 @@
+Routing Usage Summary report for MIPS325
+Thu Jan 27 10:27:19 2022
+Quartus Prime Version 21.1.0 Build 842 10/21/2021 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Routing Usage Summary
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2021  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++----------------------------------------------------------+
+; Routing Usage Summary                                    ;
++------------------------------+---------------------------+
+; Routing Resource Type        ; Usage                     ;
++------------------------------+---------------------------+
+; Block interconnects          ; 76,848 / 374,484 ( 21 % ) ;
+; C12 interconnects            ; 3,872 / 16,664 ( 23 % )   ;
+; C2 interconnects             ; 25,551 / 155,012 ( 16 % ) ;
+; C4 interconnects             ; 18,828 / 72,600 ( 26 % )  ;
+; DQS bus muxes                ; 0 / 30 ( 0 % )            ;
+; DQS-18 I/O buses             ; 0 / 30 ( 0 % )            ;
+; DQS-9 I/O buses              ; 0 / 30 ( 0 % )            ;
+; Direct links                 ; 2,292 / 374,484 ( < 1 % ) ;
+; Global clocks                ; 2 / 16 ( 13 % )           ;
+; Horizontal periphery clocks  ; 0 / 72 ( 0 % )            ;
+; Local interconnects          ; 9,103 / 112,960 ( 8 % )   ;
+; Quadrant clocks              ; 0 / 88 ( 0 % )            ;
+; R14 interconnects            ; 4,190 / 15,868 ( 26 % )   ;
+; R14/C12 interconnect drivers ; 7,233 / 27,256 ( 27 % )   ;
+; R3 interconnects             ; 32,733 / 169,296 ( 19 % ) ;
+; R6 interconnects             ; 61,399 / 330,800 ( 19 % ) ;
+; Spine clocks                 ; 20 / 480 ( 4 % )          ;
+; Wire stub REs                ; 0 / 20,834 ( 0 % )        ;
++------------------------------+---------------------------+
+
+

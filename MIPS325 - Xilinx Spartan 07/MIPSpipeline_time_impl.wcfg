@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="MIPSpipeline_time_impl.wdb" id="1">
+         <top_modules>
+            <top_module name="MIPSpipeline" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="2000001fs"></ZoomEndTime>
+      <Cursor1Time time="1819768fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="212"></NameColumnWidth>
+      <ValueColumnWidth column_width="102"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="24" />
+   <wave_markers>
+      <marker time="945768" label="" />
+      <marker time="1382768" label="" />
+      <marker time="1819768" label="" />
+      <marker time="508768" label="" />
+   </wave_markers>
+   <wvobject fp_name="/MIPSpipeline/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPSpipeline/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPSpipeline/PC_Reg/Instruction" type="array">
+      <obj_property name="ElementShortName">Instruction[18:0]</obj_property>
+      <obj_property name="ObjectShortName">Instruction[18:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPSpipeline/EXMEM_ALUResult/D" type="array">
+      <obj_property name="ElementShortName">D[7:0]</obj_property>
+      <obj_property name="ObjectShortName">D[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPSpipeline/EXMEM_ALUResult/E" type="array">
+      <obj_property name="ElementShortName">E[0:0]</obj_property>
+      <obj_property name="ObjectShortName">E[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPSpipeline/EXMEM_ALUResult/EX_ALUResult" type="array">
+      <obj_property name="ElementShortName">EX_ALUResult[30:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_ALUResult[30:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPSpipeline/EXMEM_ALUResult/MEM_MemWrite" type="logic">
+      <obj_property name="ElementShortName">MEM_MemWrite</obj_property>
+      <obj_property name="ObjectShortName">MEM_MemWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPSpipeline/EXMEM_MemWrite/MEM_MemWrite" type="logic">
+      <obj_property name="ElementShortName">MEM_MemWrite</obj_property>
+      <obj_property name="ObjectShortName">MEM_MemWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPSpipeline/EXMEM_MemtoReg/MEM_MemtoReg" type="logic">
+      <obj_property name="ElementShortName">MEM_MemtoReg</obj_property>
+      <obj_property name="ObjectShortName">MEM_MemtoReg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPSpipeline/EXMEM_ALUResult/RegOut" type="array">
+      <obj_property name="ElementShortName">RegOut[29:0]</obj_property>
+      <obj_property name="ObjectShortName">RegOut[29:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPSpipeline/MEMWB_ReadDataOfMem/MEM_ReadDataOfMem" type="array">
+      <obj_property name="ElementShortName">MEM_ReadDataOfMem[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_ReadDataOfMem[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPSpipeline/MEMWB_WriteRegister4/WB_WriteRegister" type="array">
+      <obj_property name="ElementShortName">WB_WriteRegister[0:0]</obj_property>
+      <obj_property name="ObjectShortName">WB_WriteRegister[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPSpipeline/MEMWB_ReadDataOfMem/WB_WriteData" type="array">
+      <obj_property name="ElementShortName">WB_WriteData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WB_WriteData[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPSpipeline/IF_flush_bit/IFID_flush" type="logic">
+      <obj_property name="ElementShortName">IFID_flush</obj_property>
+      <obj_property name="ObjectShortName">IFID_flush</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPSpipeline/MEMWB_WriteRegister4/WriteEn" type="array">
+      <obj_property name="ElementShortName">WriteEn[6:0]</obj_property>
+      <obj_property name="ObjectShortName">WriteEn[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPSpipeline/PC_Reg/PC" type="array">
+      <obj_property name="ElementShortName">PC[3:0]</obj_property>
+      <obj_property name="ObjectShortName">PC[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPSpipeline/CarryFlag" type="logic">
+      <obj_property name="ElementShortName">CarryFlag</obj_property>
+      <obj_property name="ObjectShortName">CarryFlag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPSpipeline/ZeroFlag" type="logic">
+      <obj_property name="ElementShortName">ZeroFlag</obj_property>
+      <obj_property name="ObjectShortName">ZeroFlag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPSpipeline/JRControl" type="logic">
+      <obj_property name="ElementShortName">JRControl</obj_property>
+      <obj_property name="ObjectShortName">JRControl</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPSpipeline/JumpControl" type="logic">
+      <obj_property name="ElementShortName">JumpControl</obj_property>
+      <obj_property name="ObjectShortName">JumpControl</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPSpipeline/JumpFlush" type="logic">
+      <obj_property name="ElementShortName">JumpFlush</obj_property>
+      <obj_property name="ObjectShortName">JumpFlush</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPSpipeline/NegativeFlag" type="logic">
+      <obj_property name="ElementShortName">NegativeFlag</obj_property>
+      <obj_property name="ObjectShortName">NegativeFlag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPSpipeline/OverflowFlag" type="logic">
+      <obj_property name="ElementShortName">OverflowFlag</obj_property>
+      <obj_property name="ObjectShortName">OverflowFlag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPSpipeline/notZeroFlag" type="logic">
+      <obj_property name="ElementShortName">notZeroFlag</obj_property>
+      <obj_property name="ObjectShortName">notZeroFlag</obj_property>
+   </wvobject>
+</wave_config>

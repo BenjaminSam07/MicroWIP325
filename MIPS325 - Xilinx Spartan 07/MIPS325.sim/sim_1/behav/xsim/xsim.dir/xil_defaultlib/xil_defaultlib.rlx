@@ -1,0 +1,24 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,
+E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sim_1/new/MIPSStimulus.v,1642513251,verilog,,,,MIPSStimulus,,,,,,,,
+E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/ALU.v,1641881619,verilog,,E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/ALUControl_Block.v,,ALU;adder;addsub;alu1bit;mux21,,,,,,,,
+E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/ALUControl_Block.v,1641882700,verilog,,E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/Add.v,,ALUControl_Block,,,,,,,,
+E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/Add.v,1641318978,verilog,,E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/Control.v,,Add;adder1bit,,,,,,,,
+E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/Control.v,1641882554,verilog,,E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/FowardingUnit.v,,Control,,,,,,,,
+E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/FowardingUnit.v,1641967127,verilog,,E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/InstructionMem.v,,ForwardingUnit,,,,,,,,
+E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/InstructionMem.v,1641318955,verilog,,E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/JRControl_Block.v,,InstructionMem;instrmemstimulous,,,,,,,,
+E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/JRControl_Block.v,1641882755,verilog,,E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/RegFile.v,,JRControl_Block,,,,,,,,
+E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/MIPSpipeline.v,1642144741,verilog,,E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sim_1/new/MIPSStimulus.v,,MIPSpipeline,,,,,,,,
+E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/RegFile.v,1641319469,verilog,,E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/StallControl.v,,D_FF;RegBit;RegFile;andmore;dec5to32;decoder;mux32to1;mux32x32to32;register,,,,,,,,
+E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/StallControl.v,1641967461,verilog,,E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/WB_forward.v,,StallControl,,,,,,,,
+E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/WB_forward.v,1641967566,verilog,,E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/dataMem.v,,CompareAddress;WB_forward,,,,,,,,
+E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/dataMem.v,1641881268,verilog,,E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/flush_block.v,,dataMem,,,,,,,,
+E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/flush_block.v,1641967457,verilog,,E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/mux2x32to32.v,,Discard_Instr;flush_block,,,,,,,,
+E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/mux2x32to32.v,1641881469,verilog,,E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/mux2x5to5.v,,mux2x32to32,,,,,,,,
+E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/mux2x5to5.v,1641882414,verilog,,E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/mux3x32to32.v,,mux2_1;mux2x5to5,,,,,,,,
+E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/mux3x32to32.v,1641967213,verilog,,E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/sign_extend.v,,mux3x32to32,,,,,,,,
+E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/sign_extend.v,1641882201,verilog,,E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/zero_extend.v,,shift_left_2;sign_extend,,,,,,,,
+E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/zero_extend.v,1641881369,verilog,,E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/MIPSpipeline.v,,zero_extend,,,,,,,,

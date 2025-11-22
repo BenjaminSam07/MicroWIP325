@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Webtalk v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Jan 18 15:54:42 2022
+# Process ID: 4232
+# Current directory: E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.sim/sim_1/synth/timing/xsim
+# Command line: wbtcv.exe -mode batch -source E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.sim/sim_1/synth/timing/xsim/xsim.dir/MIPSpipeline_time_synth/webtalk/xsim_webtalk.tcl -notrace
+# Log file: E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.sim/sim_1/synth/timing/xsim/webtalk.log
+# Journal file: E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.sim/sim_1/synth/timing/xsim\webtalk.jou
+#-----------------------------------------------------------
+source E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.sim/sim_1/synth/timing/xsim/xsim.dir/MIPSpipeline_time_synth/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.sim/sim_1/synth/timing/xsim/xsim.dir/MIPSpipeline_time_synth/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Tue Jan 18 15:54:53 2022. For additional details about this file, please refer to the WebTalk help file at E:/SOFTWAREs/XilinxVivado/Vivado/2020.2/doc/webtalk_introduction.html.
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:11 . Memory (MB): peak = 81.734 ; gain = 6.938
+INFO: [Common 17-206] Exiting Webtalk at Tue Jan 18 15:54:53 2022...

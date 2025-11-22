@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Feb 15 10:10:23 2022
+# Process ID: 14536
+# Current directory: E:/Projects/VLSI/32BitMIPSArch/MIPS325
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12024 E:\Projects\VLSI\32BitMIPSArch\MIPS325\MIPS325.xpr
+# Log file: E:/Projects/VLSI/32BitMIPSArch/MIPS325/vivado.log
+# Journal file: E:/Projects/VLSI/32BitMIPSArch/MIPS325\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.xpr
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+write_schematic E:/Projects/VLSI/32BitMIPSArch/MIPS325/RTLSchematic.sch

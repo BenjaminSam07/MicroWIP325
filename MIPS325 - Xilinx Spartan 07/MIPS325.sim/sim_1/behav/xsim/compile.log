@@ -1,0 +1,128 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2458] undeclared symbol notcr31, assumed default net type wire [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/ALU.v:62]
+INFO: [VRFC 10-2458] undeclared symbol addsub31Out, assumed default net type wire [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/ALU.v:67]
+INFO: [VRFC 10-2458] undeclared symbol crrout31, assumed default net type wire [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/ALU.v:67]
+INFO: [VRFC 10-2458] undeclared symbol o1, assumed default net type wire [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/ALU.v:70]
+INFO: [VRFC 10-2458] undeclared symbol o2, assumed default net type wire [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/ALU.v:71]
+INFO: [VRFC 10-2458] undeclared symbol o3, assumed default net type wire [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/ALU.v:72]
+INFO: [VRFC 10-2458] undeclared symbol o4, assumed default net type wire [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/ALU.v:73]
+INFO: [VRFC 10-2458] undeclared symbol o5, assumed default net type wire [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/ALU.v:74]
+INFO: [VRFC 10-2458] undeclared symbol o6, assumed default net type wire [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/ALU.v:75]
+INFO: [VRFC 10-2458] undeclared symbol o7, assumed default net type wire [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/ALU.v:76]
+INFO: [VRFC 10-2458] undeclared symbol o8, assumed default net type wire [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/ALU.v:77]
+INFO: [VRFC 10-2458] undeclared symbol o9, assumed default net type wire [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/ALU.v:78]
+INFO: [VRFC 10-2458] undeclared symbol o10, assumed default net type wire [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/ALU.v:79]
+INFO: [VRFC 10-311] analyzing module alu1bit
+INFO: [VRFC 10-2458] undeclared symbol addsubOut, assumed default net type wire [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/ALU.v:87]
+INFO: [VRFC 10-2458] undeclared symbol xorOut, assumed default net type wire [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/ALU.v:88]
+INFO: [VRFC 10-2458] undeclared symbol xorlessOut, assumed default net type wire [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/ALU.v:89]
+INFO: [VRFC 10-311] analyzing module addsub
+INFO: [VRFC 10-2458] undeclared symbol notb, assumed default net type wire [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/ALU.v:96]
+INFO: [VRFC 10-2458] undeclared symbol b1, assumed default net type wire [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/ALU.v:97]
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2458] undeclared symbol c1, assumed default net type wire [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/ALU.v:109]
+INFO: [VRFC 10-2458] undeclared symbol c2, assumed default net type wire [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/ALU.v:110]
+INFO: [VRFC 10-2458] undeclared symbol c3, assumed default net type wire [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/ALU.v:111]
+INFO: [VRFC 10-311] analyzing module mux21
+INFO: [VRFC 10-2458] undeclared symbol nsel, assumed default net type wire [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/ALU.v:120]
+INFO: [VRFC 10-2458] undeclared symbol O1, assumed default net type wire [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/ALU.v:121]
+INFO: [VRFC 10-2458] undeclared symbol O2, assumed default net type wire [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/ALU.v:122]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/ALUControl_Block.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALUControl_Block
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/Add.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Add
+INFO: [VRFC 10-311] analyzing module adder1bit
+INFO: [VRFC 10-2458] undeclared symbol c1, assumed default net type wire [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/Add.v:71]
+INFO: [VRFC 10-2458] undeclared symbol c2, assumed default net type wire [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/Add.v:72]
+INFO: [VRFC 10-2458] undeclared symbol c3, assumed default net type wire [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/Add.v:73]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/Control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Control
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/FowardingUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ForwardingUnit
+INFO: [VRFC 10-2458] undeclared symbol a, assumed default net type wire [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/FowardingUnit.v:34]
+INFO: [VRFC 10-2458] undeclared symbol b, assumed default net type wire [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/FowardingUnit.v:35]
+INFO: [VRFC 10-2458] undeclared symbol x, assumed default net type wire [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/FowardingUnit.v:36]
+INFO: [VRFC 10-2458] undeclared symbol c, assumed default net type wire [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/FowardingUnit.v:40]
+INFO: [VRFC 10-2458] undeclared symbol d, assumed default net type wire [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/FowardingUnit.v:41]
+INFO: [VRFC 10-2458] undeclared symbol y, assumed default net type wire [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/FowardingUnit.v:42]
+INFO: [VRFC 10-2458] undeclared symbol notx, assumed default net type wire [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/FowardingUnit.v:47]
+INFO: [VRFC 10-2458] undeclared symbol b1, assumed default net type wire [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/FowardingUnit.v:51]
+INFO: [VRFC 10-2458] undeclared symbol d1, assumed default net type wire [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/FowardingUnit.v:52]
+INFO: [VRFC 10-2458] undeclared symbol x1, assumed default net type wire [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/FowardingUnit.v:53]
+INFO: [VRFC 10-2458] undeclared symbol y1, assumed default net type wire [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/FowardingUnit.v:54]
+INFO: [VRFC 10-2458] undeclared symbol notx1, assumed default net type wire [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/FowardingUnit.v:57]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/InstructionMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstructionMem
+INFO: [VRFC 10-311] analyzing module instrmemstimulous
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/JRControl_Block.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module JRControl_Block
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/RegFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegFile
+INFO: [VRFC 10-311] analyzing module D_FF
+INFO: [VRFC 10-311] analyzing module RegBit
+INFO: [VRFC 10-311] analyzing module register
+INFO: [VRFC 10-311] analyzing module decoder
+INFO: [VRFC 10-311] analyzing module andmore
+INFO: [VRFC 10-2458] undeclared symbol f1, assumed default net type wire [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/RegFile.v:201]
+INFO: [VRFC 10-311] analyzing module dec5to32
+INFO: [VRFC 10-2458] undeclared symbol Nota, assumed default net type wire [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/RegFile.v:208]
+INFO: [VRFC 10-2458] undeclared symbol Notb, assumed default net type wire [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/RegFile.v:209]
+INFO: [VRFC 10-2458] undeclared symbol Notc, assumed default net type wire [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/RegFile.v:210]
+INFO: [VRFC 10-2458] undeclared symbol Notd, assumed default net type wire [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/RegFile.v:211]
+INFO: [VRFC 10-2458] undeclared symbol Note, assumed default net type wire [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/RegFile.v:212]
+INFO: [VRFC 10-311] analyzing module mux32to1
+INFO: [VRFC 10-2458] undeclared symbol g3, assumed default net type wire [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/RegFile.v:287]
+INFO: [VRFC 10-2458] undeclared symbol g4, assumed default net type wire [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/RegFile.v:288]
+INFO: [VRFC 10-2458] undeclared symbol g5, assumed default net type wire [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/RegFile.v:289]
+INFO: [VRFC 10-2458] undeclared symbol g6, assumed default net type wire [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/RegFile.v:290]
+INFO: [VRFC 10-2458] undeclared symbol g7, assumed default net type wire [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/RegFile.v:291]
+INFO: [VRFC 10-2458] undeclared symbol g8, assumed default net type wire [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/RegFile.v:292]
+INFO: [VRFC 10-2458] undeclared symbol g9, assumed default net type wire [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/RegFile.v:293]
+INFO: [VRFC 10-2458] undeclared symbol g10, assumed default net type wire [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/RegFile.v:294]
+INFO: [VRFC 10-2458] undeclared symbol g11, assumed default net type wire [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/RegFile.v:295]
+INFO: [VRFC 10-2458] undeclared symbol g12, assumed default net type wire [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/RegFile.v:296]
+INFO: [VRFC 10-311] analyzing module mux32x32to32
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/StallControl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module StallControl
+INFO: [VRFC 10-2458] undeclared symbol OrRsRt, assumed default net type wire [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/StallControl.v:58]
+INFO: [VRFC 10-2458] undeclared symbol notOrRsRt, assumed default net type wire [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/StallControl.v:59]
+INFO: [VRFC 10-2458] undeclared symbol OrRtRt, assumed default net type wire [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/StallControl.v:67]
+INFO: [VRFC 10-2458] undeclared symbol notOrRtRt, assumed default net type wire [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/StallControl.v:68]
+INFO: [VRFC 10-2458] undeclared symbol ec1, assumed default net type wire [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/StallControl.v:76]
+INFO: [VRFC 10-2458] undeclared symbol ec2, assumed default net type wire [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/StallControl.v:84]
+INFO: [VRFC 10-2458] undeclared symbol xorop, assumed default net type wire [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/StallControl.v:87]
+INFO: [VRFC 10-2458] undeclared symbol xoroprt, assumed default net type wire [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/StallControl.v:88]
+INFO: [VRFC 10-2458] undeclared symbol OrOut, assumed default net type wire [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/StallControl.v:89]
+INFO: [VRFC 10-2458] undeclared symbol Condition, assumed default net type wire [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/StallControl.v:90]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/WB_forward.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module WB_forward
+INFO: [VRFC 10-2458] undeclared symbol orOut1, assumed default net type wire [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/WB_forward.v:51]
+INFO: [VRFC 10-311] analyzing module CompareAddress
+INFO: [VRFC 10-2458] undeclared symbol OrAddr, assumed default net type wire [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/WB_forward.v:75]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/dataMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dataMem
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/flush_block.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module flush_block
+INFO: [VRFC 10-2458] undeclared symbol notflush, assumed default net type wire [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/flush_block.v:33]
+INFO: [VRFC 10-311] analyzing module Discard_Instr
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/mux2x32to32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2x32to32
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/mux2x5to5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2x5to5
+INFO: [VRFC 10-311] analyzing module mux2_1
+INFO: [VRFC 10-2458] undeclared symbol nsel, assumed default net type wire [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/mux2x5to5.v:39]
+INFO: [VRFC 10-2458] undeclared symbol O1, assumed default net type wire [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/mux2x5to5.v:40]
+INFO: [VRFC 10-2458] undeclared symbol O2, assumed default net type wire [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/mux2x5to5.v:41]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/mux3x32to32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux3x32to32
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/sign_extend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sign_extend
+INFO: [VRFC 10-311] analyzing module shift_left_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/zero_extend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module zero_extend
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/MIPSpipeline.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MIPSpipeline
+INFO: [VRFC 10-2458] undeclared symbol ID_flush, assumed default net type wire [E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sources_1/new/MIPSpipeline.v:125]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Projects/VLSI/32BitMIPSArch/MIPS325/MIPS325.srcs/sim_1/new/MIPSStimulus.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MIPSStimulus
